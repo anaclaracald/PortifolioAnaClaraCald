@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/sobre.css">
+</head>
+<body class="theme-light">
+    <header class="navbar-wrapper">
+        <nav class="navbar">
+            <a class="brand" href="index.html">Ana Clara • Dev</a>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="menu" class="nav-links">
+                <li><a class="active" href="index.html">Sobre</a></li>
+                <li><a href="Formacao.html">Formação</a></li>
+                <li><a href="Portifolio.html">Portfólio</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="assets/ResumeAnaClaraCaldeira.pdf" download>Currículo</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" type="button">
+                        🌙
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow animate-pop">Olá, eu sou Ana Clara</p>
+                <h1 class="headline animate-pop-delay">Cientista de Dados em formação, apaixonada por IA aplicada</h1>
+                <p class="description animate-pop-delay">
+                    Moro em Brasília e atualmente integro a Apple Developer Academy. Exploro automações,
+                    modelos de machine learning e experiências mobile para resolver problemas reais com 
+                    colaboração e muita curiosidade.
+                </p>
+                <div class="hero-actions animate-pop-delay">
+                    <a class="btn primary" href="Portifolio.html">Ver projetos</a>
+                    <a class="btn ghost" href="Contato.html">Vamos conversar</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="orbit">
+                    <div class="planet"></div>
+                    <div class="satellite"></div>
+                </div>
+                <p class="caption">Insights baseados em dados, visualizados com sutileza e interatividade.</p>
+            </div>
+        </section>
+
+        <section class="cards-grid">
+            <article class="card shimmer">
+                <h3>Missão</h3>
+                <p>Gerar impacto positivo usando a tecnologia para a solução de problemas reais.</p>
+            </article>
+            <article class="card shimmer">
+                <h3>Hobbies</h3>
+                <p>Hackathons, experiências novas e playlists lo-fi para manter o foco.</p>
+            </article>
+            <article class="card shimmer">
+                <h3>Valores</h3>
+                <p>Transparência, aprendizagem contínua e colaboração multidisciplinar guiando cada solução.</p>
+            </article>
+        </section>
+
+        <section class="timeline">
+            <h2>Trajetória em Destaque</h2>
+            <div class="timeline-track">
+                <div class="timeline-card">
+                    <p class="tag">Fev 2025 • atual</p>
+                    <h3>Apple Developer Academy</h3>
+                    <p>Desenvolvimento nativo iOS com SwiftUI e UIKit, aprendendo por desafios e trabalho em time.</p>
+                </div>
+                <div class="timeline-card">
+                    <p class="tag">Fev 2024 • Jun 2025</p>
+                    <h3>Porto Digital</h3>
+                    <p>Liderança de squad, criação de chatbot com IA generativa e integrações com n8n para revisar documentos.</p>
+                </div>
+                <div class="timeline-card">
+                    <p class="tag">2024 • 2025</p>
+                    <h3>Voluntariados</h3>
+                    <p>TDC Brasília e Semana de TI da UCB: apoio a workshops e palestras sobre desenvolvimento mobile e inovação.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Feito com carinho e café. © 2025 Ana Clara Caldeira.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

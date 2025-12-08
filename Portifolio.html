@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/portifolio.css">
+</head>
+<body class="theme-light">
+    <header class="navbar-wrapper">
+        <nav class="navbar">
+            <a class="brand" href="index.html">Ana Clara • Dev</a>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="menu" class="nav-links">
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="Formacao.html">Formação</a></li>
+                <li><a class="active" href="Portifolio.html">Portfólio</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="assets/ResumeAnaClaraCaldeira.pdf" download>Currículo</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" type="button">
+                        🌙
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <section class="section-intro">
+            <p class="eyebrow">Projetos preferidos</p>
+            <h1>Protótipos e soluções </h1>
+            <p>Trago aqui entregas construídas em squads e experimentos solo que combinam ciência de dados, integrações inteligentes e desenvolvimento mobile.</p>
+        </section>
+
+        <section class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-thumb project-mobile"></div>
+                <div class="project-body">
+                    <p class="tag">Runiverse: SpriteKit</p>
+                    <h3>Jogo hipercasual no universo</h3>
+                    <p>Jogo iOS desenvolvido na Apple Developer Academy com SpriteKit.</p>
+                    <a class="link-arrow" href="https://apps.apple.com/br/app/runiverse-save-the-universe/id6752032792" target="_blank" rel="noreferrer" aria-label="Abrir jogo Runiverse">Ver app</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="highlight">
+            <div>
+                <h2>Colaborações</h2>
+                <p>Atuo como líder de squad, facilitadora em workshops e palestrante voluntária. Se o seu time busca alguém com visão de dados, mobile e inteligência artificial, vamos conversar.</p>
+            </div>
+            <a class="btn primary" href="Contato.html">Iniciar conversa</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Feito com carinho e café. © 2025 Ana Clara Caldeira.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
