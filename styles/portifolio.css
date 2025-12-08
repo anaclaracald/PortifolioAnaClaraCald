@@ -1,0 +1,21 @@
+.project-thumb::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-landing::after {
+    background-image: linear-gradient(135deg, #7dd1ff, #b3c7ff);
+}
+
+.project-dashboard::after {
+    background-image: linear-gradient(135deg, #aec9ff, #889aff);
+}
+
+.project-mobile::after {
+    background-image: linear-gradient(135deg, #c9dfff, #7ec8f8);
+}
+
